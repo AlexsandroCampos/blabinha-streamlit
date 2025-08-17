@@ -1,0 +1,6 @@
+transformers
+accelerate
+optimum
+langchain
+langchain-google-genai
+langchain-openai
