@@ -23,7 +23,8 @@ stat = 0
 if len(sys.argv) >= 2:
     choice = sys.argv[1]
 else:
-    choice = input("Escolha o modelo (GPT, Llama, Qwen, Gemini): ")
+    # choice = input("Escolha o modelo (GPT, Llama, Qwen, Gemini): ")
+    choice = "gpt"
 
 br.select_model(choice)
 print(f"Modelo '{choice}' selecionado.\n")
