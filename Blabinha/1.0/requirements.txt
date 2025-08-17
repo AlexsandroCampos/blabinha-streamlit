@@ -55,6 +55,6 @@ watchdog==5.0.3
 python_version < 3.13
 transformers
 accelerate
-optimum
 langchain
 langchain-openai
+
