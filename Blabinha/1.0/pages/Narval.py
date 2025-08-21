@@ -19,7 +19,7 @@ def create_chat(chat):
 
     # Mudar isso: (precisa aparecer nos novos e chats e não pode mudar durante a conversa)
  
-    strategies = ["One-Shot"]
+    strategies = ["Self-Consistency"]
 
 
     if "prompt_strategy" not in st.session_state:
